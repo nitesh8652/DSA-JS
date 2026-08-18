@@ -1,2 +1,2 @@
-
-    console.log(k)
+    console.log('even', even)
+    console.log('odd', odd)
