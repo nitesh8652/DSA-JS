@@ -1,2 +1,3 @@
-    console.log('even', even)
-    console.log('odd', odd)
+ {
+        fact = fact * i;
+    } else {
