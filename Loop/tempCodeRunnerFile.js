@@ -1,3 +1,1 @@
- {
-        fact = fact * i;
-    } else {
+0
