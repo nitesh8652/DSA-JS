@@ -10,4 +10,4 @@ while (n > 0) {
     n = Math.floor(n / 10)
 }
 
-console.log(rev)
+console.log(rev)        
