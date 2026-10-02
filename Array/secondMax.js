@@ -1,5 +1,5 @@
 let arr = [12, 66, 89, 63, 76, 35, 98]
-let max = arr[1]
+let max = arr[0]
 let smax 
 
 for(let i =1;i<arr.length;i++){
