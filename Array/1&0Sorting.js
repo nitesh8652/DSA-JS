@@ -4,12 +4,13 @@
 
     while(i<arr.length){
         if(arr[i]==1){
-            //0
+            //1 ko temp me store
             let temp = arr[i]
-            //0
+            //zero ko i me store
             arr[i] = arr[j]
-            //0
+            //1 ki value ko j me store
             arr[j] = temp
+            //j tab tak increment hoga jab 1 milega
             j++
         }
         i++
