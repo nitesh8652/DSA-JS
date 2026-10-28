@@ -29,8 +29,7 @@ if (firstSum > secondSum) {
     result = firstHalf
 
 } else {
-
-
+    
     const result = [0]
 }
 
