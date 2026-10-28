@@ -1,4 +1,4 @@
-const arr = [1, 2, 9, 1, 2, 1, 1, 3]
+const arr = [1, 2, 1, 2, 1, 3]
 
 const half = arr.length / 2
 
@@ -18,15 +18,20 @@ if (firstSum > secondSum) {
 
     const res1 = firstSum - secondSum
     console.log("res1", res1)
-    result = res1 + secondSum
+    secondHalf.push(res1)
+    result = secondHalf
 
-} else if (secondSum < firstSum) {
+} else if (secondSum > firstSum) {
 
     const res2 = secondSum - firstSum
     console.log("res2", res2)
-     result = res2 + secondSum
+    firstHalf.push(res2)
+    result = firstHalf
 
+} else {
+
+
+    const result = [0]
 }
-console.log("finalResult", result)
 
-// console.log(firstSum, secondSum)
+console.log(result)
