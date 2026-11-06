@@ -1,1 +1,1 @@
-    // arr[i-1] = arr[i]
+console.log("maxCount",maxCount)
