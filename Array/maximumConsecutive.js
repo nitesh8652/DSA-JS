@@ -7,18 +7,12 @@ let maxCount = 0
 for (let i = 0; i < arr.length; i++) {
     if(arr[i] === 1){
         currentCount ++
-        maxCount ++
-    }
-    
-    if(arr[i] === 0){
+        maxCount = Math.max(currentCount, maxCount )
+    }else{
         currentCount = 0
     }
 
 }
 
-if(maxCount>currentCount){
-    console.log(maxCount,"maxCount")
-}else if(currentCount>maxCount){
-    console.log(currentCount,"currentCount")
+console.log(maxCount)
 
-}
