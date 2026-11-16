@@ -1,5 +1,5 @@
 // Kya koi do alag elements hain jinka sum target ke barabar ho?
-
+//REVIEWWW!!!!!!
 function hasPair(arr, x) {
     for (let i = 0; i < arr.length; i++) {
         for (let j = 0; j < i; j++) {
