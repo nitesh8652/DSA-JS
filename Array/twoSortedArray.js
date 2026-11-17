@@ -15,7 +15,6 @@ while (i < arr1.length && j < arr2.length) {
     }
 }
 
-// Add remaining elements REVIEWWWWWWWWWWWWWWWWWWWWWW
 while (i < arr1.length) {
     merged.push(arr1[i]);
     i++;
